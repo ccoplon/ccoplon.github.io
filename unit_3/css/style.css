@@ -1,0 +1,17 @@
+body {
+	background-color: #003300;
+	color: #FFFFFF;
+	text-align: center;
+}
+h1 {
+	font-size: 45px;
+	text-transform: uppercase;
+
+}
+#slogan {
+	font-style: italic;
+	font-size: 32px;
+}
+ul {
+	list-style-type: none;
+}
