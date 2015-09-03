@@ -1,17 +1,22 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #003300;
+	background-image:url(../images/fly-fishing.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
 	color: #FFFFFF;
+	font-size:16px;
 	text-align: center;
 }
 h1 {
-	font-size: 45px;
+	font-size:3em;
+	margin-bottom:.5em;
 	text-transform: uppercase;
-
-}
-#slogan {
-	font-style: italic;
-	font-size: 32px;
 }
 ul {
 	list-style-type: none;
+}
+#slogan {
+	font-style: italic;
+	font-size: 2em;
 }
