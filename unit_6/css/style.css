@@ -1,15 +1,23 @@
-* { margin: 0; padding: 0; box-sizing: 0; border-box: 0; }
+* { margin: 0; padding: 0; box-sizing:border-box; }
 body {
 	background-color: #000000;
 }
-
-.topbanner img {
-	width: 100%;
-}
-
-#nav {
+nav {
 	background-color: #BBBDC0; 
 	font-family: 'Cinzel', serif;
+}
+aside {
+	background-color: white;
+	display: block;
+	float: right;
+	width: 25%;
+	height: 150px;
+	margin: .5em;
+	padding: .5em;
+	overflow: scroll;
+}
+section img {
+	width: 100%;
 }
 a { 
 	background-color: #BBBDC0;
@@ -22,7 +30,12 @@ a {
 a:hover {
 	background-color: #EACE5B;
 }
-
+#hero {
+	background: url(../images/beer-shot.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:5em 0;
+}
 #primary {
 	background-color: #BBBDC0;
 	display: block;
@@ -30,9 +43,6 @@ a:hover {
 	width:74%;
 	margin: .5%;
 	padding: .5em;
-}
-#primary-image {
-	width: 100%;
 }
 
 #secondary {
@@ -43,9 +53,6 @@ a:hover {
 	margin: .5%;
 	padding: .5em;
 }
-#secondary-image {
-	width: 100%;
-}
 
 #tertiary {
 	background-color: #BBBDC0;
@@ -54,19 +61,6 @@ a:hover {
 	width: 35%;
 	margin: .5%;
 	padding: .5em;
-}
-#tertiary-image {
-	width: 100%;
-}
-#aside {
-	background-color: white;
-	display: block;
-	float: right;
-	width: 25%;
-	height: 150px;
-	margin: .5em;
-	padding: .5em;
-	overflow: scroll;
 }
 .clearfix:after {
 	visibility: hidden;
