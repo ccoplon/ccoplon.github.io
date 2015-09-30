@@ -6,15 +6,17 @@ nav {
 	background-color: #BBBDC0; 
 	font-family: 'Cinzel', serif;
 }
+main {
+	width:74%;
+	margin:.5%;
+	float:left;
+}
 aside {
-	background-color: white;
-	display: block;
-	float: right;
-	width: 25%;
-	height: 150px;
-	margin: .5em;
+	background-color: #ddd;
+	float: left;
+	width: 24%;
+	margin: .5%;
 	padding: .5em;
-	overflow: scroll;
 }
 section img {
 	width: 100%;
@@ -38,27 +40,14 @@ a:hover {
 }
 #primary {
 	background-color: #BBBDC0;
-	display: block;
-	float: left;
-	width:74%;
-	margin: .5%;
+	width:100%
 	padding: .5em;
 }
 
-#secondary {
+#secondary, #tertiary {
 	background-color: #BBBDC0;
-	display: block;
 	float: left;
-	width: 35%;
-	margin: .5%;
-	padding: .5em;
-}
-
-#tertiary {
-	background-color: #BBBDC0;
-	display: block;
-	float: left;
-	width: 35%;
+	width: 49%;
 	margin: .5%;
 	padding: .5em;
 }
