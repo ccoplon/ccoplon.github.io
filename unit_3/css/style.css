@@ -9,6 +9,22 @@ body {
 	font-size:16px;
 	text-align: left;
 }
+nav {
+	background-color: #003300;
+	font-size: 1em;
+}
+nav a {
+	background-color: #003300;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+	padding: 20px;
+}
+a:hover {
+	background-color: #9C9F84;
+}
 #boxes a {
 	width: 24%;
 	display: block;
@@ -22,19 +38,23 @@ body {
 	background-size: cover;
 	width: 49%;
 	padding: 11em 0;
+	text-decoration: none;
 }
 
 #boxes .captain-box {
 	background-image: url(../images/captain-box.jpg);
 	background-size: cover;
+	text-decoration: none;
 }
 #boxes .gallery-box {
 	background-image: url(../images/gallery-box.jpg);
 	background-size: cover;
+	text-decoration: none;
 }
 #boxes .lodging-box {
 	background-image: url(../images/lodging-box.jpg);
 	background-size: cover;
+	text-decoration: none;
 }
 #boxes .rates-box {
 	background-image: url(../images/rates-box.jpg);
