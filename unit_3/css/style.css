@@ -21,7 +21,7 @@ nav a {
 a:hover {
 	background-color: #9C9F84;
 }
-section {
+body>section {
 	height:100vh;
 	position:relative;
 }
@@ -34,12 +34,11 @@ section#fish-with-us {
 	height:auto;
 }
 section#fish-with-us section {
-	background-image: url(../images/fly-fisherman.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background:#003300;
 	float:left;
-	height:auto;
-	width:33.33%;
+	margin:.5%;
+	padding:5em 0;
+	width:32.33%;
 }
 section#meet-the-captain {
 	background-image: url(../images/meet-the-captain.png);
@@ -74,7 +73,6 @@ ul {
 .film {
 	background:rgba(0,0,0,.5);
 	height:100%;
-	padding:5em 0;
 	text-align:center;
 	width:100%;
 }
