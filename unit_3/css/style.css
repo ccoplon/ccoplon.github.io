@@ -25,12 +25,6 @@ section {
 	height:100vh;
 	position:relative;
 }
-section>div {
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-}
 section#about {
 	background-image: url(../images/fly-fisherman.jpg);
 	background-size: cover;
@@ -44,7 +38,7 @@ section#fish-with-us section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	float:left;
-	padding:.1em;
+	height:auto;
 	width:33.33%;
 }
 section#meet-the-captain {
@@ -70,6 +64,19 @@ ul {
 #slogan {
 	font-style: italic;
 	font-size: 2em;
+}
+.centered {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.film {
+	background:rgba(0,0,0,.5);
+	height:100%;
+	padding:5em 0;
+	text-align:center;
+	width:100%;
 }
 .clearfix:after { 
 	content: "."; 
