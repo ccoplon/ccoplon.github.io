@@ -38,6 +38,7 @@ section#fish-with-us section {
 	float:left;
 	margin:.5%;
 	padding:5em 0;
+	text-align:center;
 	width:32.33%;
 }
 section#meet-the-captain {
@@ -64,6 +65,12 @@ ul {
 	font-style: italic;
 	font-size: 2em;
 }
+.cta {
+	border:.2em solid #fff;
+	display:inline-block;
+	margin-top:1em;
+	padding:1em 2em;
+}
 .centered {
 	position:absolute;
 	top:50%;
@@ -73,7 +80,6 @@ ul {
 .film {
 	background:rgba(0,0,0,.5);
 	height:100%;
-	text-align:center;
 	width:100%;
 }
 .clearfix:after { 
